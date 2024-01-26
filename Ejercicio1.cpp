@@ -11,7 +11,7 @@ double CalcularAreaCirculo(double); //El prototipo de Funcion que calculara el a
 double CalcularAreaTriangulo(double, double); //El prototipo de Funcion que calculara el area del Triangulo y que tiene dos parametros de tipo double: uno para la base y otro para la altura.
 double CalcularAreaCuadrado(double); //Por ultimo el prototipo de Funcion que calculara el area del Cuadrado. Tiene como parametro un valor tipo double para el lado del Cuadrado.
 
-//Funcion general
+//Funcion Principal
 int main (){
     int opcion; //Se necesita declarar una variable opcion para ser utilizada en la sentencia Switch.
     double radio, base, altura, lado; // Definimos las variables double que almacenaran los valores dados por el usuario y que respectivamente se usaran en la Funcion necesaria.
